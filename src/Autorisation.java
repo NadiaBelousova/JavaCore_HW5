@@ -20,7 +20,4 @@ public class Autorisation {
     public int getConfirmPass() {
         return confirmPass;
     }
-
-    public void check() {
-    }
 }
