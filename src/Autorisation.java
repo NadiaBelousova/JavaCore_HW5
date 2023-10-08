@@ -1,9 +1,9 @@
 public class Autorisation {
     String login;
-    int password;
-    int confirmPass;
+    String password;
+    String confirmPass;
 
-    public Autorisation(String login, int password, int confirmPass) {
+    public Autorisation(String login, String password, String confirmPass) {
         this.login = login;
         this.password = password;
         this.confirmPass = confirmPass;
@@ -13,11 +13,11 @@ public class Autorisation {
         return login;
     }
 
-    public int getPassword() {
+    public String getPassword() {
         return password;
     }
 
-    public int getConfirmPass() {
+    public String getConfirmPass() {
         return confirmPass;
     }
 }
